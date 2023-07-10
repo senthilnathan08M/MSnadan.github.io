@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senthil's Portfolio</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <div class="portfolio-container">
+        <div class="portfolio-row header-wrap">
+            <div class="brand-name">
+                <a href="#" class="logo">Senthil Nathan</a>
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="portfolio-navbar">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="slide-carousel">
+    <div class="slider">
+        <div class="portfolio-container">
+            <div class="slider-content">
+                <div class="slider-general">
+                    <span class="welcome-msg">
+                        welcome! Hello world!!
+                    </span>
+                    <div class="welcome-text">
+                        <h1>
+                            HELLO! I am
+                        </h1>
+                        <div class="text-wrap">
+                            <h2 class="main-text">Senthilnathan</h2>
+                            <h2 class="hover-title">Senthilnathan</h2>
+                        </div>
+                        <p>
+                            A computer science student passionate about programming and design.Throughout my studies,I have been learning a little about multiple 
+                            disciplines to get a feel for what sparks my interest the most. As of now, I have the most interest in software engineering and development 
+                            utilizing machine learning and artificial intelligence.  
+                        </p>
+                    </div>
+                </div>
+                <div class="slider-image">
+                    <div class="welcome-image">
+                        <img src="senthil.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</section>
+<section id="contact">
+    <div class="portfolio-container">
+        <div class="text-wrap">
+            <h2 class="main-title">Stay Connceted</h2>
+            <h2 class="hover-title">Stay Connceted</h2>
+        </div>
+        <div class="contact-info">
+            <span>
+                Feel free to get in touch. Cheers!
+            </span>
+            <h3>senthilnathan08m@gmail.com</h3>
+            <a href="#">
+                +91 6379394120
+            </a>
+        </div>
+        <div class="social-link">
+            <ul>
+                <li>
+                    <a href="https://instagram.com/msnadan?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/senthilnathan08M"><i class='bx bxl-github' ></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/senthil-nathan-a11a58200"><i class='bx bxl-linkedin'></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Senthil59807286?t=nxKeXMadeOLUhst98Lrdgw&s=09"><i class='bx bxl-twitter'></i></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100058793494247&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function() {
+        document.querySelector(".portfolio-navbar").classList.toggle("show");
+    });
+</script>
+<footer>
+    <p>© Copyright MSnadan <a href="">@08M</a> </p>
+  </footer>
+</body>
+</html>
